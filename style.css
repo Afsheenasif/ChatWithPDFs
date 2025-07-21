@@ -1,0 +1,136 @@
+/* Layout */
+.block-container {
+    padding: 2rem;
+}
+
+/* Titles */
+h1 {
+    text-align: center;
+    color: #00B0F0;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+h5 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+/* Text Input */
+.stTextInput input {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #444;
+    font-size: 1rem;
+}
+
+/* Buttons */.stButton > button {
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    margin-top: .8rem;
+    transition: background-color 0.3s ease;
+    font-size: 1.5rem !important;
+    padding: 0.4rem 0.8rem !important;
+    border-radius: 0.5rem !important;
+}
+
+button[kind="secondaryFormSubmit"] {
+    font-size: 1.3rem !important;
+    padding: 0.4rem 1.0rem !important;
+    border-radius: 0.5rem !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+
+.stButton > button:hover {
+    background-color: #005a9e;
+}
+
+/* Upload Box */
+.css-1x8cf1d {
+    background-color: #262730;
+    border-radius: 0.5rem;
+    border: 1px dashed #555;
+    padding: 1rem;
+    color: #aaa;
+}
+
+
+/* Message Bubbles */
+.user-message, .bot-message {
+    background-color: #1e293b;
+    padding: 10px 14px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.user-message {
+    background-color: #2563eb;
+}
+
+.bot-message {
+    background-color: #374151;
+}
+
+
+/* Chat container */
+.chat-history {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Global Styling */
+html, body, .main {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Avatars */
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+}
+
+
+/* Submit button*/
+button[kind="secondaryFormSubmit"] {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button[kind="secondaryFormSubmit"]:hover {
+    background-color: #0078D4;
+    cursor: pointer;
+}
+
+
+.chat-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.chat-container.user {
+    justify-content: flex-start;
+}
+
+.chat-container.bot {
+    justify-content: flex-end;
+}
+
